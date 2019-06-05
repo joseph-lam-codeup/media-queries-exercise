@@ -1,3 +1,4 @@
+/*365x1192*/
 img {
     /*width: calc(100% - 10px);*/
     width: 100%;
@@ -12,28 +13,27 @@ img {
     border: solid 1px #848487;
     width: calc(90% - 8px);
     position: relative;
+    left: .5em;
 }
 h1 {
     text-align: center;
     font-size: 2em;
-
 }
 .nav-links {
     list-style-type: none;
     padding: 0;
 }
-ul>li {
+ul li {
     padding: 1em;
     margin: .5em 0;
     background: lightgray;
-    text-align: center;
     width: calc(100% - 42px);
+    text-align: center;
 }
+
 footer {
     margin-top: 10em;
 }
-
-
 .sub-section {
     font-style: italic;
 }
@@ -72,26 +72,25 @@ div li {
     margin: 1em;
     width: 30px;
     height: 30px;
-    right: 2em;
-    position: relative;
-
+    /*right: 2em;*/
+    /*position: relative;*/
 }
 li img {
-    width: 30px;
-    height: 30px;
-    left: 1em;
+    width: 50%;
+    height: 50%;
+    /*left: 1em;*/
     position: relative;
 }
 
-
-
-@media screen and (min-width:500px) {
+/*934x1210*/
+@media screen and (min-width:590px) {
     img {
         height: 385px;
+        max-width: 890px;
         width: 100%;
         float: left;
         position: relative;
-        left: 1em;
+        /*left: 1em;*/
     }
 
     .hidden-on-desktop {
@@ -133,6 +132,7 @@ li img {
     h1 {
         float: left;
         font-size: 3em;
+        margin-left: 1em;
     }
 
     h2 {
