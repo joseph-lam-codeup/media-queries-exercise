@@ -1,11 +1,16 @@
-.alert-info {
-
+img {
+    width: calc(100% - 10px);
+    height: 224px;
+    float: top;
 }
+
 .hidden-on-desktop {
     background: lightblue;
     padding: 1em;
     text-align: center;
     border: solid 1px #848487;
+    width: calc(90% - 8px);
+    position: relative;
 }
 h1 {
     text-align: center;
@@ -14,31 +19,36 @@ h1 {
 }
 .nav-links {
     list-style-type: none;
+    padding: 0;
 }
 ul>li {
     padding: 1em;
     margin: .5em 0;
     background: lightgray;
     text-align: center;
-    width: 90%;
+    width: calc(100% - 42px);
 }
-.header-img {
+footer {
+    margin-top: 10em;
+}
 
-}
-.main {
 
-}
 .sub-section {
-
+    font-style: italic;
 }
-.social-media-links {
 
-}
-nav {
 
-}
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width:768px) { /* ... */ }
+body {
+
+}
+.hidden-on-desktop {
+
+}
+ul>li {
+
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width:992px) { /* ... */ }
